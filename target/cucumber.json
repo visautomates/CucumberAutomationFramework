@@ -1,0 +1,247 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T15:37:09.674Z",
+        "line": 3,
+        "name": "Advance Page logo",
+        "description": "",
+        "id": "ebay-advance-searh-screen;advance-page-logo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4872083400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on advance search page",
+            "match": {
+              "location": "stepdefinition.EbayAdvanceSearch_Steps.i_am_on_advance_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 857548900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on ebay logo",
+            "match": {
+              "location": "stepdefinition.EbayAdvanceSearch_Steps.i_click_on_ebay_logo()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4182694700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am navigated to ebay login page",
+            "match": {
+              "location": "stepdefinition.EbayAdvanceSearch_Steps.i_am_navigated_to_ebay_login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test2"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Advance Searh Screen",
+    "description": "",
+    "id": "ebay-advance-searh-screen",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/ebay_AdvanceSearch.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T15:37:19.645Z",
+        "line": 5,
+        "name": "Advance search Link",
+        "description": "",
+        "id": "ebay-home-page-scenarios;advance-search-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2793060500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on Ebay home page",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.i_am_on_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 934501300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Advance search Link",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.i_click_on_advance_search_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4152546600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I navigate to Advance search Page",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.i_navigate_to_advance_search_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-28T15:37:27.539Z",
+        "line": 15,
+        "name": "Search item in search box",
+        "description": "",
+        "id": "ebay-home-page-scenarios;search-item-in-search-box",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2873419500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I am on Ebay home page",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.i_am_on_ebay_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1897019600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I am searching item in search box",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.i_am_searching_item_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 711473000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Item is isplayed with results",
+            "match": {
+              "location": "stepdefinition.EbayHome_Steps.item_is_isplayed_with_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "Ebay home page scenarios",
+    "description": "",
+    "id": "ebay-home-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/ebay_Home.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-28T15:37:33.025Z",
+        "line": 4,
+        "name": "check login with successful cred",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-with-successful-cred",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User on login page",
+            "match": {
+              "location": "stepdefinition.Loginfeature.user_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 995600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter valid credential",
+            "match": {
+              "location": "stepdefinition.Loginfeature.user_enter_valid_credential()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on login",
+            "match": {
+              "location": "stepdefinition.Loginfeature.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is successfully logged into homepage",
+            "match": {
+              "location": "stepdefinition.Loginfeature.user_is_successfully_logged_into_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature To Test Login Functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/login.feature",
+    "tags": []
+  }
+]
